@@ -1,0 +1,50 @@
+
+yyin takes read stream and vise versa
+
+// positive vs negative  numbers
+1. + is potional
+   . needs to be escaped
+1 or more numbers on either side of decimal point
+
+// identifier
+2. alpabet zero or more alpha numerics
+
+// simple vs compound
+3. space followed but conjunctions
+followed by space.
+space means \n and \t also
+
+// vowel vs consonent
+4. first try and match the vowels
+then simply any alpha bet can be 
+matched for consonents
+
+// stream changer
+5.fprintf(<input-stream>,"string with access specifiers and shit",actial_variables)
+. {;} // for all selectors 
+
+// word,space,line,char count
+6. anthing that is not space,newline or tab is a word
+yyleng is the length of the word
+\n is you know 
+and [ ] would be space
+
+// verify the arithmatic expression
+with operators and shit
+7. use stack to push brackets, paranthesis and brackets
+on popping check weather the brackets popped are matching
+// use single paranthesis everywhere
+// use multi dimentional char arrays to hold 
+operand and operator arrays
+// yytext is something you want to hold in these 
+// number of operators must be one less than that of operand
+
+// check for valid declarations
+8. TYPE LIST SC NL
+// order matters
+types first
+id later
+, ; and newline could go in any 
+order after that
+// you can use console for input
+
